@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import Awards from "./components/Awards";
+import "./App.css"
 const App = () => {
   return (
-    <div>App ho</div>
-  )
-}
+    <div>
+        <Awards/>
+    </div>
+  );
+};
 
-export default App
+export default App;
