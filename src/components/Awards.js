@@ -24,11 +24,11 @@ const Awards = () => {
     <>
       <div className="awards_main">
         <div className="awards_text">
-          <h1>
+          <h2>
             Awards.
             <br /> Followers.Rewards
-          </h1>
-          <p>
+          </h2>
+          <p className="para">
             Our work speaks for itself - Specscart has been awarded first prize
             in Venture Further 2018 Business Category. We are constantly working
             to innovate new ways and technology to become UK’s leading Eye Care
@@ -68,7 +68,7 @@ const Awards = () => {
           </div>
         </Slider>
       </div>
-      <span className="social">
+      <div className="social">
         Follow @Specscartuk
         <span className="social_icon">
           <FontAwesomeIcon icon={faYoutube} size="2px" />
@@ -82,7 +82,7 @@ const Awards = () => {
         <span className="social_icon">
           <FontAwesomeIcon icon={faInstagram} size="2px" />
         </span>
-      </span>
+      </div>
       {/* <a href="#" className="instagram social"> */}
       {/* </a> */}
     </>
