@@ -68,7 +68,7 @@ const Awards = () => {
           </div>
         </Slider>
       </div>
-      <div className="social">
+      <span className="social">
         Follow @Specscartuk
         <span className="social_icon">
           <FontAwesomeIcon icon={faYoutube} size="2px" />
@@ -82,7 +82,7 @@ const Awards = () => {
         <span className="social_icon">
           <FontAwesomeIcon icon={faInstagram} size="2px" />
         </span>
-      </div>
+      </span>
       {/* <a href="#" className="instagram social"> */}
       {/* </a> */}
     </>
